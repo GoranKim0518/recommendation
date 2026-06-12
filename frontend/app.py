@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 
 # 환경 변수 바인딩
-BACKEND_IP = os.getenv("BACKEND_IP", "localhost")
-API_URL = f"http://{BACKEND_IP}:8000/api/v1/predict"
+BACKEND_IP = os.getenv("BACKEND_IP", "localhost").strip()
+API_URL = f"http://{BACKEND_IP}:8000/api/recommend"
 
 st.set_page_config(page_title="Lunch Engine", page_icon="🍱", layout="centered")
 
@@ -14,11 +14,11 @@ if "history_log" not in st.session_state:
     st.session_state.history_log = []
 
 # Frontend Cache + 네트워크 try-except 예외 처리
-@st.cache_data(ttl=600)
-def get_recommendation_from_api(payload):
+@st.cache_data(ttl=600, show_spinner=False)
+def get_recommendation_from_api(payload, url):
     try:
         # 네트워크 지연 현상을 대비한 5초 타임아웃 제한 조건 설정
-        response = requests.post(API_URL, json=payload, timeout=5)
+        response = requests.post(url, json=payload, timeout=5)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.ConnectionError:
@@ -61,7 +61,7 @@ if submitted:
     }
     
     with st.spinner("지금 가장 당기는 스타일과 매칭되는 음식을 찾는 중..."):
-        result = get_recommendation_from_api(payload)
+        result = get_recommendation_from_api(payload, API_URL)
     
     if result:
         # 타임스탬프 로그 생성 및 기록
