@@ -1,0 +1,37 @@
+[
+  {"menu_name": "뼈해장국", "target_category": "한식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "매운맛", "target_vibe": "든든하게"},
+  {"menu_name": "김치찌개", "target_category": "한식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "매운맛", "target_vibe": "가성비"},
+  {"menu_name": "된장찌개", "target_category": "한식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "보통", "target_vibe": "가성비"},
+  {"menu_name": "갈비탕", "target_category": "한식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  {"menu_name": "순두부찌개", "target_category": "한식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "보통", "target_vibe": "가성비"},
+  {"menu_name": "뚝배기 불고기", "target_category": "한식", "target_soup_type": "국물 있음", "target_cooking_style": "볶음/조림", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  {"menu_name": "철판닭갈비", "target_category": "한식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "매운맛", "target_vibe": "든든하게"},
+  {"menu_name": "제육볶음", "target_category": "한식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "보통", "target_vibe": "가성비"},
+  {"menu_name": "육회비빔밥", "target_category": "한식", "target_soup_type": "국물 없음", "target_cooking_style": "회/비빔", "target_spiciness": "보통", "target_vibe": "든든하게"},
+  
+  {"menu_name": "차돌 짬뽕", "target_category": "중식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "매운맛", "target_vibe": "든든하게"},
+  {"menu_name": "울면", "target_category": "중식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  {"menu_name": "짜장면", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "순한맛", "target_vibe": "가성비"},
+  {"menu_name": "마라샹궈", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "매운맛", "target_vibe": "특별한날"},
+  {"menu_name": "매콤 쟁반짜장", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "보통", "target_vibe": "든든하게"},
+  {"menu_name": "간짜장", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  {"menu_name": "중화 잡채밥", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  {"menu_name": "마파두부밥", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "보통", "target_vibe": "든든하게"},
+  {"menu_name": "찹쌀 탕수육", "target_category": "중식", "target_soup_type": "국물 없음", "target_cooking_style": "튀김/구이", "target_spiciness": "순한맛", "target_vibe": "특별한날"},
+  
+  {"menu_name": "치즈 오븐 스파게티", "target_category": "양식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "보통", "target_vibe": "가성비"},
+  {"menu_name": "까르보나라 크림파스타", "target_category": "양식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "순한맛", "target_vibe": "특별한날"},
+  {"menu_name": "라자냐", "target_category": "양식", "target_soup_type": "국물 없음", "target_cooking_style": "튀김/구이", "target_spiciness": "순한맛", "target_vibe": "특별한날"},
+  {"menu_name": "경양식 왕돈까스", "target_category": "양식", "target_soup_type": "국물 없음", "target_cooking_style": "튀김/구이", "target_spiciness": "순한맛", "target_vibe": "가성비"},
+  {"menu_name": "스테이크", "target_category": "양식", "target_soup_type": "국물 없음", "target_cooking_style": "튀김/구이", "target_spiciness": "순한맛", "target_vibe": "특별한날"},
+  {"menu_name": "콤비네이션 피자", "target_category": "양식", "target_soup_type": "국물 없음", "target_cooking_style": "튀김/구이", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  
+  {"menu_name": "탄탄멘", "target_category": "일식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "매운맛", "target_vibe": "든든하게"},
+  {"menu_name": "나가사키 짬뽕", "target_category": "일식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "보통", "target_vibe": "든든하게"},
+  {"menu_name": "우삼겹 스키야키 정식", "target_category": "일식", "target_soup_type": "국물 있음", "target_cooking_style": "탕류/국물", "target_spiciness": "순한맛", "target_vibe": "특별한날"},
+  {"menu_name": "카츠동", "target_category": "일식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "순한맛", "target_vibe": "가성비"},
+  {"menu_name": "치킨가라아게 정식", "target_category": "일식", "target_soup_type": "국물 없음", "target_cooking_style": "튀김/구이", "target_spiciness": "순한맛", "target_vibe": "든든하게"},
+  {"menu_name": "야끼소바", "target_category": "일식", "target_soup_type": "국물 없음", "target_cooking_style": "볶음/조림", "target_spiciness": "보통", "target_vibe": "가성비"},
+  {"menu_name": "모듬 초밥", "target_category": "일식", "target_soup_type": "국물 없음", "target_cooking_style": "회/비빔", "target_spiciness": "순한맛", "target_vibe": "특별한날"},
+  {"menu_name": "특선 생선회 덮밥", "target_category": "일식", "target_soup_type": "국물 없음", "target_cooking_style": "회/비빔", "target_spiciness": "보통", "target_vibe": "특별한날"}
+]
